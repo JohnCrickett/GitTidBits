@@ -42,3 +42,8 @@ then undo:
 
 ### Change file mode for git on Windows ###
 `git update-index --chmod=+x file`
+
+### All files to have LF (Unix) line endings in the repo ###
+Add the following to the `.gitattributes` file:
+
+`* text=auto eol=lf`
